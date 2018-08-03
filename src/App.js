@@ -11,8 +11,28 @@ class App extends Component {
           <h1 className="App-title">Vinyl Collection</h1>
         </header>
         <p className="App-intro">
-          Have | Want | Add
-        </p>
+          <button
+            name='have-button'
+            value='have'
+            //onClick={this.onButtonClick}
+            >
+            Have
+          </button>
+          <button
+            name='want-button'
+            value='want'
+            //onClick={this.onButtonClick}
+            >
+            Want
+          </button>
+          </p>
+          <button
+            name='add-button'
+            value='add'
+            //onClick={this.onButtonClick}
+            >
+            Add a Record
+          </button>
       </div>
     );
   }
