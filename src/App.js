@@ -13,7 +13,8 @@ border-radius: 3px;
 background: transparent;
 color: palevioletred;
 &:hover ${Button} {
-  background: blue;
+  background: palevioletred;
+  color: white;
 }
 `;
 
