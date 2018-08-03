@@ -4,12 +4,17 @@ import './App.css';
 import styled from 'styled-components';
 
 const Button = styled.button`
-color: palevioletred;
+display: inline-block;
 font-size: 1em;
 margin: 1em;
-padding: 0.25em 1em;
+padding: 0.5em 1em;
 border: 2px solid palevioletred;
 border-radius: 3px;
+background: transparent;
+color: palevioletred;
+&:hover ${Button} {
+  background: blue;
+}
 `;
 
 class App extends Component {
