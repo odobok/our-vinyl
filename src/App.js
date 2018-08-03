@@ -1,6 +1,16 @@
 import React, { Component } from 'react';
 import logo from './images/record-main.png';
 import './App.css';
+import styled from 'styled-components';
+
+const Button = styled.button`
+color: palevioletred;
+font-size: 1em;
+margin: 1em;
+padding: 0.25em 1em;
+border: 2px solid palevioletred;
+border-radius: 3px;
+`;
 
 class App extends Component {
   render() {
@@ -11,28 +21,28 @@ class App extends Component {
           <h1 className="App-title">Vinyl Collection</h1>
         </header>
         <p className="App-intro">
-          <button
+          <Button
             name='have-button'
             value='have'
             //onClick={this.onButtonClick}
             >
             Have
-          </button>
-          <button
+          </Button>
+          <Button
             name='want-button'
             value='want'
             //onClick={this.onButtonClick}
             >
             Want
-          </button>
+          </Button>
           </p>
-          <button
+          <Button
             name='add-button'
             value='add'
             //onClick={this.onButtonClick}
             >
             Add a Record
-          </button>
+          </Button>
       </div>
     );
   }
