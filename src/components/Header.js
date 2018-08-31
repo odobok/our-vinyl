@@ -7,7 +7,7 @@ const Header = () => (
   <Router>
     <header className="App-header">
       <img src={logo} className="App-logo" alt="spinning-vinyl" />
-      <h1 className="App-title">Vinyl Collection!!!</h1>
+      <h1 className="App-title">Your Vinyl Collection!!!</h1>
     </header>
   </Router>
 );
